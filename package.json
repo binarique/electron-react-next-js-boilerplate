@@ -1,21 +1,33 @@
 {
   "name": "nextjs-desktop",
   "version": "0.1.0",
+  "main": "main.js",
+  "author": "Binarique",
+  "description": "This is binarique boilerplate code for nextJS",
   "private": true,
   "scripts": {
+    "electron:dev": "concurrently \"set BROWSER=none&& npm run dev\" \"wait-on http://localhost:3000/ && electron .\"",
+    "electron:build": "next build && electron-builder",
+    "electron:test": "electron .",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "electron-serve": "^1.3.0",
+    "next": "15.1.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.3"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "concurrently": "^9.1.2",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-is-dev": "^3.0.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.3",
-    "@eslint/eslintrc": "^3"
+    "wait-on": "^8.0.1"
   }
 }
