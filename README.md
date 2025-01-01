@@ -5,6 +5,15 @@ First, run:
 
 `npm install`
 
+The project depends on `Concurrently` and `wait-on`
+install them as global dependencies
+
+`npm install -g concurrently`
+
+and 
+
+`npm install -g wait-on`
+
 Development server:
 
 ```bash
