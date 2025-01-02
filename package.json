@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "main.js",
   "author": "Binarique",
-  "description": "This is binarique boilerplate code for nextJS",
+  "description": "This is electron nextjs boilerplate template for js",
   "private": true,
   "scripts": {
     "electron:dev": "concurrently \"set BROWSER=none&& npm run dev\" \"wait-on http://localhost:3000/ && electron .\"",

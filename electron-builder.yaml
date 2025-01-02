@@ -1,8 +1,8 @@
-appId: "com.binarque.nextjs"
+appId: "com.binarique.nextjs"
 productName: "NextJS"
-copyright: "Copyright (c) 2025 Binarqiue"
+copyright: "Copyright (c) 2025 Binarique"
 win:
-  target: ["dir", "portable", "zip"] #  "zip", "dir", "nsis", "msi"
+  target: ["nsis", "portable"] #  "zip", "dir", "nsis", "msi"
   icon: "resources/icon.ico"
 linux:
   target: ["dir", "appimage", "zip"]
