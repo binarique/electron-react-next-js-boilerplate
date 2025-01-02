@@ -4,7 +4,7 @@ const path = require('path')
 const serve = require("electron-serve");
 
 
-const appServe = app.isPackaged ? serve({ directory: path.join(__dirname, "out") }) : null;
+const appServe = serve({ directory: path.join(__dirname, "out") });
 
 function createWindow() {
     // Get the primary display's size
