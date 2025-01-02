@@ -1,4 +1,4 @@
-This is a [Electronjs](https://www.electronjs.org/) + [React](https://react.dev/) + [Next.js](https://nextjs.org) boilerplate template
+This is a [Electronjs](https://www.electronjs.org/) + [React](https://react.dev/) + [Next.js](https://nextjs.org) [Javascript](https://www.javascript.org/) boilerplate template
 
 ## Getting Started
 First, run:
